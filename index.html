@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <h1>Calculadora IMC</h1>
+    <div id="calculadora">
+		<div id="nome">
+        <p>Nome:
+            <input type="text" name="nome" id="inputNome">
+        </p>
+        <p>Peso (Kg):
+            <input type="text" name="nome" id="inputPeso">
+        </p>
+        <p>Altura (m):
+            <input type="text" name="nome" id="inputAltura">
+        </p>
+		</div>
+        <span>
+            <input type="button" value="Calcular" id="btCalcular">
+            <input type="button" value="Limpar" id="btLimpar" disabled>
+        </span>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <td>Nome</td>
+                <td>Peso</td>
+                <td>Altura</td>
+                <td>IMC</td>
+                <td>Classificação</td>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

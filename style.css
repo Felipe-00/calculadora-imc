@@ -1,0 +1,125 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	background-color: #C7FFED;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+    color:  #015958;
+	font-family: 'Bebas Neue', cursive;
+}
+
+#calculadora{
+    padding: 15px;
+    border-radius: 15px;
+    background-color:#008F8C;
+    font-weight: bold;
+	padding: 2em 4em 2em 4em;
+
+
+}
+
+#nome{
+	display: flex;
+    flex-direction: row;
+}
+
+#calculadora input{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	}
+
+#inputPeso{
+	margin-top: 15px;
+	margin-right: 20px;
+}
+
+
+#inputAltura{
+	margin-top: 15px;
+}
+
+#inputNome{
+	margin-top: 15px;
+	margin-right: 20px;
+}
+
+
+p{
+    margin-bottom: 20px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+}
+
+
+
+span{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+
+span input + input{
+    margin-left: 20px;
+}
+
+span input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+	background-color: #023535;
+	color: #fff;
+	font-size: 15px;
+}
+
+span input:hover{
+    background-color:#015958;
+    color: white;
+    cursor: pointer;
+}
+
+table{
+    margin-top: 5px;
+    background-color:#008F8C;
+    padding: 15px;
+    border-radius: 3px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+thead td{
+    font-weight: bold;
+	font-size: 1.2em;
+	font-family: 'Bebas Neue', cursive;
+}
+
+ td{
+    border-bottom: 1px solid black;
+	text-align: center;
+    width:140px;
+	border: 1px solid black;
+
+ }
+ 
+ @media(max-width:700px){
+#nome{
+	 display: flex;
+	 flex-direction: column;
+	 }
+}
+	 
+}
